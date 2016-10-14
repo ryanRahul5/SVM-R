@@ -19,3 +19,6 @@ dat=data.frame(x,y=as.factor(y))
 svmfit=svm(y~.,data=dat,kernel="linear",cost=10,scale=FALSE)
 print(svmfit)
 plot(svmfit,dat)
+
+
+###### will update on the complete analysis soon ###
