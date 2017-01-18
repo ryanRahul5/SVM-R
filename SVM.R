@@ -10,7 +10,6 @@ x=matrix(rnorm(40),20,2)
 y=rep(c(-1,1),c(10,10))
 x[y==1,]=x[y==1,]+1
 plot(x,col=y+3,pch=19)
-```
 
 #Now we will load the package `e1071` which contains the `svm` function we will use. We then compute the fit. Notice that we have to specify a `cost` parameter, which is a tuning parameter. 
 
